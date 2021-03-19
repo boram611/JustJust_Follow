@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/card1" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Korea’s public transportation system is well-known for being convenient,
+ inexpensive and clean.
+The KOREA TOUR CARD is a transit card for international tourists.
+Use it to pay for different types of public transport and enjoy a wide range of benefits offered by some 170 tourist attractions,
+performance venues, restaurants, shops, and many others in South Korea!
+
+Going to visit Busan, Yeosu, Tongyeong, or other southern coastal areas?
+ Use KOREA TOUR CARD Namhaean Coast.
+Some 210 benefits offered by existing KOREA TOUR CARD affiliates and by special attractions of the Namhaean coast are waiting for you."
+        android:textSize="17dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\n \n How to purchase KOREA TOUR CARD"
+            android:textSize="20dp"
+            android:textColor="#18257E"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="1. Buy offline (KOREA TOUR CARD) KOREA TOUR CARDs are available in airports, major convenience store branches, vending machines in subways, banks, etc. at KRW 4,000.
+(Money for transportation should be added separately)
+\n \n
+2. Buy online (KOREA TOUR CARD, KOREA TOUR CARD Namhaean Coast)
+Conveniently buy it on the website.
+(URL 걸기)
+Take your card at KOREA TOUR CARD COUNTER in Korea.
+*Location: 1st floor of Arrival Hall at Gimpo International Airport
+  (Gate 2, International Flights)
+*Operation hours: Every day from 10:00 through 22:00"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+</ScrollView>
+

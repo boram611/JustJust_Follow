@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/card11"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Mobile KOREA TOUR CARD is the mobile app version
+of the KOREA TOUR CARD.
+With the NFC function of your mobile phone,
+users can use it to pay not only for public transportation
+(subway, bus, taxi, etc.)
+but also for purchases at Starbucks, McDonalds, and convenience stores.
+Don’t miss out the benefits for cultural events and tourist destinations
+provided to you on the KOREA TOUR CARD."
+            android:textSize="17dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\n \n How to use"
+            android:textSize="20dp"
+            android:textColor="#18257E"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/card111" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\n \n Precautions"
+            android:textSize="20dp"
+            android:textColor="#18257E"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Before use, check your wireless connection and make sure NFC is enabled.
+Enable the app and use the card when the screen is turned on.
+Works only on mobile phones with Android OS 5.0.1 or above
+and NFC function.
+The credit card/debit card supports
+VISA / Master / JCB / Amex / Union Pay only."
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.justfollow"
+    android:installLocation="preferExternal">
+
+    <application
+        android:name=".GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Local2_1" />
+        <activity android:name=".Local1_1" />
+        <activity android:name=".Local01" />
+        <activity android:name=".Local02" />
+        <activity android:name=".Local03" />
+        <activity android:name=".Local04" />
+        <activity android:name=".Local05" />
+        <activity android:name=".Local06" />
+        <activity android:name=".Local07" />
+        <activity android:name=".Local08" />
+        <activity android:name=".Local09" />
+        <activity android:name=".Local10" />
+        <activity android:name=".Local11" />
+        <activity android:name=".Local12" />
+        <activity android:name=".Local13" />
+        <activity android:name=".Local14" />
+        <activity android:name=".Local15" />
+        <activity android:name=".Local16" />
+        <activity android:name=".Local17" />
+        <activity android:name=".Local18" />
+        <activity android:name=".BusRoute" />
+        <activity android:name=".Frag4" />
+        <activity android:name=".Frag3" />
+        <activity android:name=".Helpful" />
+        <activity android:name=".Local" />
+        <activity android:name=".Setting" />
+        <activity android:name=".FAQ" />
+        <activity android:name=".Notice" />
+        <activity android:name=".Translator" />
+        <activity android:name=".Exchange" />
+        <activity android:name=".Directions" />
+        <activity android:name=".Taxi" />
+        <activity android:name=".Subway" />
+        <activity android:name=".Bus" />
+        <activity android:name=".Card4" />
+        <activity android:name=".Card3" />
+        <activity android:name=".Card2" />
+        <activity android:name=".Card1" />
+        <activity android:name=".Guide5" />
+        <activity android:name=".Guide4" />
+        <activity android:name=".Guide3" />
+        <activity android:name=".Guide2" />
+        <activity android:name=".Guide1" />
+        <activity android:name=".MainGuide" />
+        <activity android:name=".PlaceDetailActivity" />
+        <activity android:name=".MapSearchDetailActivity" />
+        <activity android:name=".MapNavigationActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".Fragment1" />
+        <activity android:name=".Fragment2" />
+        <activity android:name=".Fragment3" />
+        <activity android:name=".db.dbActivity" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".Fragment2a"/>
+        <activity android:name=".Fragment3a"/>
+
+        <activity android:name=".DatePick"></activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".Alarm_Reciver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".SettingActivity" />
+        <activity
+            android:name=".Edit_Activity"
+            android:parentActivityName=".MainActivity3" />
+        <activity
+            android:name=".View_Activity"
+            android:parentActivityName=".MainActivity3" />
+        <activity
+            android:name=".NewEdit_Activity"
+            android:parentActivityName=".MainActivity3" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="0968b855c01353c2eb8e83520341c4ad" /> <!-- 96f4402ba0b477e3bcfd7a494ca48f44 -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" /> <!-- 565565880744909 -->
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="40qxdgrrn0" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA,android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+</manifest>

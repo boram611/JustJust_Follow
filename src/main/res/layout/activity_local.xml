@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Local">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5BBDC8">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="FAQ"
+            android:textColor="#ffffff" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/lmain"
+        android:layout_width="410dp"
+        android:layout_height="380dp"
+        android:src="@drawable/map"
+        android:layout_below="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lmain"
+        >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+       >
+
+        <ImageButton
+            android:id="@+id/local01"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/incheon" />
+
+        <ImageButton
+            android:id="@+id/local02"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/seoul"
+            android:layout_toRightOf="@+id/local01"/>
+
+        <ImageButton
+            android:id="@+id/local03"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gangwondo"
+            android:layout_toRightOf="@+id/local02"/>
+
+        <ImageButton
+            android:id="@+id/local04"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/sejong"
+            android:layout_below="@id/local01"/>
+
+        <ImageButton
+            android:id="@+id/local05"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/gyeonggido"
+            android:layout_toRightOf="@+id/local04"
+            android:layout_below="@+id/local02"/>
+
+        <ImageButton
+            android:id="@+id/local06"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ghungbuk"
+            android:layout_toRightOf="@+id/local05"
+            android:layout_below="@+id/local03"/>
+
+        <ImageButton
+        android:id="@+id/local07"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:background="@color/colorWhite"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ghungnam"
+        android:layout_below="@id/local04"/>
+
+        <ImageButton
+            android:id="@+id/local08"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/daejeon"
+            android:layout_toRightOf="@+id/local07"
+            android:layout_below="@+id/local05"/>
+
+        <ImageButton
+            android:id="@+id/local09"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/gyeongbuk"
+            android:layout_toRightOf="@+id/local08"
+            android:layout_below="@+id/local06"/>
+
+        <ImageButton
+            android:id="@+id/local10"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/jeollabuk"
+            android:layout_below="@id/local07"/>
+
+        <ImageButton
+            android:id="@+id/local11"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/daegu"
+            android:layout_toRightOf="@+id/local10"
+            android:layout_below="@+id/local08"/>
+
+        <ImageButton
+            android:id="@+id/local12"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ulsan"
+            android:layout_toRightOf="@+id/local11"
+            android:layout_below="@+id/local09"/>
+
+        <ImageButton
+            android:id="@+id/local13"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/gwangju"
+            android:layout_below="@id/local10"/>
+
+        <ImageButton
+            android:id="@+id/local14"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/gyeongnam"
+            android:layout_toRightOf="@+id/local13"
+            android:layout_below="@+id/local11"/>
+
+        <ImageButton
+            android:id="@+id/local15"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/busan"
+            android:layout_toRightOf="@+id/local14"
+            android:layout_below="@+id/local12"/>
+
+        <ImageButton
+            android:id="@+id/local16"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/jeollanam"
+            android:layout_below="@id/local13"/>
+
+        <ImageButton
+            android:id="@+id/local17"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/jejudo"
+            android:layout_toRightOf="@+id/local16"
+            android:layout_below="@+id/local14"/>
+
+        <ImageButton
+            android:id="@+id/local18"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/dokdo"
+            android:layout_toRightOf="@+id/local17"
+            android:layout_below="@+id/local15"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+        <LinearLayout
+            android:id="@+id/page"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff"
+            android:visibility="invisible"
+            >
+
+            <include layout="@layout/nav_header"/>
+
+            <include layout="@layout/nav_menu"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

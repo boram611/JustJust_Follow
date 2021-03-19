@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exchange">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp">
+
+        <ImageView
+            android:id="@+id/US"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/us" />
+
+        <TextView
+            android:id="@+id/USD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_toEndOf="@+id/US"
+            android:background="@null"
+            android:hint="1USD"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/U.S.A."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="110dp"
+            android:layout_toEndOf="@+id/USD"
+            android:text="U.S.A." />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="110dp"
+            android:layout_toEndOf="@+id/U.S.A."
+            android:text="1225won" />
+
+        <ImageView
+            android:id="@+id/EU"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/US"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/eu" />
+
+        <TextView
+            android:id="@+id/EURO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/USD"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/EU"
+            android:background="@null"
+            android:hint="1EURO"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/E.U."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/U.S.A."
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/EURO"
+            android:background="@null"
+            android:hint="E.U."
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/E.U."
+            android:text="1336won" />
+
+        <ImageView
+            android:id="@+id/EN"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/EU"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/jp" />
+
+        <TextView
+            android:id="@+id/J.P.Y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EURO"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="55dp"
+            android:layout_toEndOf="@+id/EN"
+            android:background="@null"
+            android:hint="1JPY" />
+
+        <TextView
+            android:id="@+id/JPN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/E.U."
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/J.P.Y"
+            android:background="@null"
+            android:hint="J.P.N." />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/JPN"
+            android:text="11won" />
+
+        <ImageView
+            android:id="@+id/YI"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/EN"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/ch" />
+
+        <TextView
+            android:id="@+id/C.H.Y."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/J.P.Y"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/YI"
+            android:background="@null"
+            android:hint="1CHY"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/C.H.N"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/JPN"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/C.H.Y."
+            android:background="@null"
+            android:hint="C.H.N" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/C.H.N"
+            android:text="172won" />
+
+        <ImageView
+            android:id="@+id/UK"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/YI"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/uk" />
+
+        <TextView
+            android:id="@+id/GBP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/C.H.Y."
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/UK"
+            android:hint="1GBP" />
+
+        <TextView
+            android:id="@+id/U.K."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/C.H.N"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/GBP"
+            android:hint="U.K." />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/U.K."
+            android:text="1496won" />
+
+        <ImageView
+            android:id="@+id/AUS"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/UK"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/au" />
+
+        <TextView
+            android:id="@+id/AUD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/GBP"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/AUS"
+            android:hint="1AUD" />
+
+        <TextView
+            android:id="@+id/A.U.S"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/U.K."
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/AUD"
+            android:text="A.U.S" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/A.U.S"
+            android:text="800won" />
+
+        <ImageView
+            android:id="@+id/NZ"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/AUS"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/nz" />
+
+        <TextView
+            android:id="@+id/NZD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AUD"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/NZ"
+            android:hint="1NZD" />
+
+        <TextView
+            android:id="@+id/N.Z."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/A.U.S"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/NZD"
+            android:text="N.Z." />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/N.Z."
+            android:text="741won" />
+
+        <ImageView
+            android:id="@+id/TW"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/NZ"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/tw" />
+
+        <TextView
+            android:id="@+id/TWD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NZD"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/TW"
+            android:hint="1TWD" />
+
+        <TextView
+            android:id="@+id/TWN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/N.Z."
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/TWD"
+            android:text="T.W.N" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView18"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/TWN"
+            android:text="40won" />
+
+        <LinearLayout
+            android:id="@+id/page"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="391dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="337dp"
+                android:text="환율계산" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+
+            <include layout="@layout/nav_header" />
+
+            <include layout="@layout/nav_menu" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner_countries"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp" />
+
+        <View
+            android:id="@+id/view_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/toolbar" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:background="#5BBDC8">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Exchange Rates"
+                android:textColor="#ffffff" />
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "383887681909",
+    "firebase_url": "https://just-follow.firebaseio.com",
+    "project_id": "just-follow",
+    "storage_bucket": "just-follow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383887681909:android:d4a1d201adb43de9ee0b3c",
+        "android_client_info": {
+          "package_name": "com.example.justfollow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383887681909-7dsn1454dfgba0pda0s6n4mva8t9u6t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.justfollow",
+            "certificate_hash": "6f35d65edf1d65e272992923ba4c96e510e7a36b"
+          }
+        },
+        {
+          "client_id": "383887681909-297dage2rt38udkee4icl6v7vps005qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB51RV13gc1xb_tL9OI_54XC3HKDFja47Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383887681909-297dage2rt38udkee4icl6v7vps005qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

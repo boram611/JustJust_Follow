@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5BBDC8">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Korea Tour Card "
+            android:textColor="#ffffff" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/card4" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\nTransfer Discount"
+            android:textSize="20dp"
+            android:textColor="#18257E"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="left"
+            android:text="If you use public transportation (i.e. subway, bus) with your Tmoney card, you can get a ₩100-plus discount for every ride. Tmoney card holders can enjoy up to four discounts a day, if they transfer within a transfer time limit of 30 minutes (up to 1 hour from 9pm to 7am next day).
+The discount is applicable to transfers from subway to bus and via versa, and between one bus to another (excluding buses running along the same route)."
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\n Refund"
+            android:textSize="20dp"
+            android:textColor="#18257E"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Present your Tmoney card and inform the staff how much you want to refund in Tmoney card sales/Top-up locations. The refund will be given to you in cash in Korean won along with card.
+- Refund does not include the cost of card.\n
+- The service fee of ₩500 will be charged.\n
+- Partial refund is not possible. Only entire refund allowed."
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/page"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff"
+            android:visibility="invisible"
+            >
+
+            <include layout="@layout/nav_header"/>
+
+            <include layout="@layout/nav_menu"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+

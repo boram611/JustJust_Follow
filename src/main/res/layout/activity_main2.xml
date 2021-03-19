@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <FrameLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.example_sliding.MainActivity">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/toolbar" />
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5BBDC8">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Just Follow"
+                    android:textColor="#ffffff" />
+            </androidx.appcompat.widget.Toolbar>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/main"
+                android:background="@android:color/transparent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="440dp"
+                android:background="#ECECEC" />
+
+            <ImageButton
+                android:id="@+id/m_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="465dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/mb1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Information"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="525dp"/>
+
+            <ImageButton
+                android:id="@+id/m_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="465dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/mb2"
+                android:layout_toRightOf="@+id/m_btn1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="528dp"/>
+
+
+            <ImageButton
+                android:id="@+id/m_btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="17dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/mb3"
+                android:layout_below="@id/m_btn1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Local recommendation"
+                android:layout_marginLeft="59dp"
+                android:layout_marginTop="628dp"
+                android:textSize="11dp"/>
+
+            <ImageButton
+                android:id="@+id/m_btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="17dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/mb4"
+                android:layout_toRightOf="@+id/m_btn3"
+                android:layout_below="@+id/m_btn2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Translator"
+                android:layout_marginLeft="268dp"
+                android:layout_marginTop="624dp"
+                />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/page"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="right"
+            android:background="#ffffff"
+            android:visibility="invisible"
+            >
+
+            <include layout="@layout/nav_header"/>
+
+            <include layout="@layout/nav_menu"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_gravity="bottom"
+            android:background="@color/b_back"
+            app:menu="@menu/menu_bottom"
+            app:labelVisibilityMode="unlabeled"
+            app:itemBackground="@color/b_back"
+            app:itemIconTint="@drawable/item_color"
+            app:itemTextColor="@drawable/item_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/f3"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"/>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:layout_gravity="center">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1330 Korea Travel Hotline ＆ \n  Korea Tourism Organization's Korea Travel Hotline Provides
+information and services for most regions of Korea as well as interpretation services to ensure each caller hs a worry-free
+travel experience."
+            android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\n Supported Languages"
+            android:textSize="18dp"
+            android:textColor="#18257E"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Korean, English, Japanese, Chinese, Russian, Vietnamese, Thai, Malay"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\n Service Hours"
+            android:textSize="18dp"
+            android:textColor="#18257E"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Available all year-round \n
+Korean, English, Japanese, Chinese : 24hours/day \n
+Russian, Vietnamese, Thai, Malay : 08:00 ~ 19:00"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\n How to call"
+            android:textSize="18dp"
+            android:textColor="#18257E"/>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\n ■ Wired/Wireless Phones"
+            android:textSize="18dp"
+            android:textColor="#18257E"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Service is free of charge. Call charges are applied separately.\n
+In Korea : 1330 / From abroad : +82-2-1330 \n
+Click the 'Call Now' icon below, then press 'Set' and turn on \n
+'Use Mobile Call'"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="\n ■ Internet Phone"
+            android:textSize="18dp"
+            android:textColor="#18257E"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Toll-free within Wi-Fi Zones \n
+Keep in mind that data charges may apply if not in Wi-Fi zones \n
+Click the 'Call Now' icon below, then click 'Call'"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/bt_call"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main"
+            android:text="CALL :1330"
+            android:textColor="#ffffff"
+            android:layout_gravity="bottom"
+            android:onClick="myClickMethod"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
